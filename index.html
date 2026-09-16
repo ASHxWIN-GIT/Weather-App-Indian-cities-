@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div class="weather">
+            <img src="https://openweathermap.org/img/wn/01d@2x.png" id="weather-icon" alt="Weather Icon">
+            <h1 id="temp">--°C</h1>
+            <h2 id="city">City Name</h2>
+
+            <div class="details">
+                <div class="col">
+                    <p id="humidity">--%</p>
+                    <p>Humidity</p>
+                </div>
+                <div class="col">
+                    <p id="wind">-- km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="available-cities">
+            <p><strong>Available Cities:</strong></p>
+            <p>Mumbai, Delhi, Bengaluru, Chennai, Kolkata, Hyderabad, Ahmedabad, Pune, Jaipur, Bhopal, Raipur, Bhilai, Bilaspur</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
